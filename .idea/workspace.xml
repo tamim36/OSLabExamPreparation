@@ -2,22 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36ae9215-b351-44f6-8faa-b81226a06120" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/thread/waitnotify/example/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/waitnotify/example/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/waitnotifytwo/example/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/waitnotifytwo/example/MainTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/waitnotifytwo/example/ThreadFirst.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/waitnotifytwo/example/ThreadSecond.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/waitnotifyfour/example/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/waitnotifyfour/example/Notifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/waitnotifyfour/example/WaitNotifyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/waitnotifyfour/example/Waiter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/waitnotifythree/example/MainThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/waitnotifythree/example/myAnotherThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/waitnotifythree/example/myThread.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OSLabExam/thread/sleep/example/MainSleep.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OSLabExam/thread/sleep/example/MainSleep.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OSLabExam/thread/sleep/example/TestSleep.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OSLabExam/thread/sleep/example/TestSleep.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thread/sleep/example/MainSleep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thread/sleep/example/MainSleep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thread/sleep/example/TestSleep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thread/sleep/example/TestSleep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thread/syncthree/example/CallMe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thread/syncthree/example/CallMe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thread/syncthree/example/CallThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thread/syncthree/example/CallThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thread/syncthree/example/MainToCall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thread/syncthree/example/MainToCall.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thread/synctwo/java/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thread/synctwo/java/MainTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thread/synctwo/java/TestProject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thread/synctwo/java/TestProject.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,13 +48,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MainTest (1)">
-    <configuration name="MainSleep" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.sleep.example.MainSleep" />
+  <component name="RunManager" selected="Application.WaitNotifyTest">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="producer.consumer.example.Main" />
       <module name="OSLabExam" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.sleep.example.*" />
+          <option name="PATTERN" value="producer.consumer.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,12 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainToCall" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.syncthree.example.MainToCall" />
+    <configuration name="MainThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.waitnotifythree.example.MainThread" />
       <module name="OSLabExam" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.syncthree.example.*" />
+          <option name="PATTERN" value="thread.waitnotifythree.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadJoinClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.join.example.ThreadJoinClient" />
+    <configuration name="WaitNotifyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.waitnotifyfour.example.WaitNotifyTest" />
       <module name="OSLabExam" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.join.example.*" />
+          <option name="PATTERN" value="thread.waitnotifyfour.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,19 +115,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MainSleep" />
-      <item itemvalue="Application.ThreadJoinClient" />
-      <item itemvalue="Application.MainToCall" />
       <item itemvalue="Application.Test" />
       <item itemvalue="Application.MainTest (1)" />
+      <item itemvalue="Application.MainThread" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.WaitNotifyTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WaitNotifyTest" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.MainThread" />
         <item itemvalue="Application.MainTest (1)" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.MainToCall" />
-        <item itemvalue="Application.ThreadJoinClient" />
-        <item itemvalue="Application.MainSleep" />
       </list>
     </recent_temporary>
   </component>
@@ -152,7 +144,7 @@
       <workItem from="1576662407619" duration="1950000" />
       <workItem from="1576679676818" duration="12297000" />
       <workItem from="1576749707310" duration="1679000" />
-      <workItem from="1576751588068" duration="2560000" />
+      <workItem from="1576751588068" duration="10616000" />
     </task>
     <servers />
   </component>
