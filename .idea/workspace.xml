@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36ae9215-b351-44f6-8faa-b81226a06120" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/thread/waitnotifyfour/example/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/waitnotifyfour/example/Notifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/waitnotifyfour/example/WaitNotifyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/waitnotifyfour/example/Waiter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/waitnotifythree/example/MainThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/waitnotifythree/example/myAnotherThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/waitnotifythree/example/myThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/deadlock/example/TestDeadlock.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,7 +42,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.WaitNotifyTest">
+  <component name="RunManager" selected="Application.TestDeadlock">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="producer.consumer.example.Main" />
       <module name="OSLabExam" />
@@ -88,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.waitnotify.example.Test" />
+    <configuration name="TestDeadlock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.deadlock.example.TestDeadlock" />
       <module name="OSLabExam" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.waitnotify.example.*" />
+          <option name="PATTERN" value="thread.deadlock.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,19 +109,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Test" />
       <item itemvalue="Application.MainTest (1)" />
       <item itemvalue="Application.MainThread" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.WaitNotifyTest" />
+      <item itemvalue="Application.TestDeadlock" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestDeadlock" />
         <item itemvalue="Application.WaitNotifyTest" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.MainThread" />
         <item itemvalue="Application.MainTest (1)" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -144,7 +138,7 @@
       <workItem from="1576662407619" duration="1950000" />
       <workItem from="1576679676818" duration="12297000" />
       <workItem from="1576749707310" duration="1679000" />
-      <workItem from="1576751588068" duration="10616000" />
+      <workItem from="1576751588068" duration="11568000" />
     </task>
     <servers />
   </component>
