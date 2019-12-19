@@ -4,23 +4,18 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class TestSleep extends Thread {
-    Thread t;
-    String name;
-    TestSleep(String threadname){
-        name = threadname;
-        t = new Thread(this, name);
-        t.start();
-    }
+
     public void run() {
-        synchronized (this) {
+        //synchronized (this)
+        {
             ;
-            for (int i = 1; i < 20; i++) {
+            for (int i = 1; i < 5; i++) {
                 try {
-                    Thread.sleep(500);
+                    Thread.sleep(4000);
                 } catch (InterruptedException e) {
                     Logger.getLogger(TestSleep.class.getName()).log(Level.SEVERE, null, e);
                 }
-                System.out.println(name + ": " + i);
+                System.out.println(getName() + " : " + i);
             }
         }
     }
